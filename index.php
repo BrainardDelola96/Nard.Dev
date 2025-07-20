@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]>      <html class="no-js lt-ie11 lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 10]>         <html class="no-js lt-ie11 lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 11]>         <html class="no-js lt-ie11"> <![endif]-->
+<!--[if gt IE 11]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+	<title>Nard.Dev</title>
+	<link rel="icon" type="image/x-icon" href="/images/main-logo.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/hamburgers.min.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/rslides.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/skitter.styles.min.css" type="text/css" media="all"  >
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	
+
+</head>
+	<body>
+		<div class="protect-me">
+		<div class="clearfix">
+
+<!-- Header -->
+<div class="orb"></div>
+<div class="navhead">
+<header>
+	<div class="wrapper">
+		<div class="header_con">
+			<div class="main_logo">
+			  <a href=""><figure><img src="images/main-logo.png" alt="Nard.Dev"></figure></a>
+			</div>
+
+			<div class="main_logo_scroll">
+				<div class="box_design"></div>
+				<div class="box_design design1"></div>
+				<div class="box_design design2"></div>
+				<h2>Nard.Dev</h2>
+			</div>
+
+			<div class="head_info">
+				
+				
+				
+			</div>
+		</div>
+	  <div class="clearfix"></div>
+	</div>
+</header>
+<!-- End Header -->
+
+<!-- Navigation -->
+<div id="nav_area">
+	<div class="nav_toggle_button">
+	<div class="logo_wrap"></div>
+		<div class="toggle_holder">
+			<div class="hamburger hamburger--spin-r">
+			  <div class="hamburger-box">
+				<div class="hamburger-inner"></div>
+			  </div>
+			</div>
+			<small>Menu</small>
+		</div>
+	<div class="clearfix"></div>
+	</div>
+
+	<div class="toggle_right_nav">
+	  <nav class="page_nav">
+			<div class="menu_slide_right">
+				<div class="toggle_holder">
+					<div class="hamburger hamburger--spin-r">
+					  <div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					  </div>
+					</div>
+					<small>Close</small>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="wrapper">
+				<ul>
+					<li class="current_page_item"><a href="">Home</a></li>
+					<li><a href="">About Me</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">My Works</a></li>
+					<li><a href="">My Skills</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ul>
+			</div>
+	  </nav>
+		<div class="toggle_nav_close"></div>
+	</div>
+</div>
+</div>
+<!-- End Navigation -->
+
+<!-- Banner -->
+<div id="banner">
+			<div class="main_design_box brn_design">
+			<span class="Box1 wow rotateIn" data-wow-duration="2000ms"></span>
+			<span class="Box2 wow rotateIn" data-wow-duration="2000ms"></span>
+			<span class="Box3 wow rotateIn" data-wow-duration="2000ms"></span>
+		</div>
+	
+	<div class="wrapper">
+		<div class="bnr_con">
+
+
+		<div class="text_background wow fadeInUp" data-wow-duration="2000ms">
+body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor:pointer}body{margin:0;font-family:'Segoe UI',sans-serif;background-color:#f9f9f9;color:#333}h1,h2,h3,h4,h5,h6{margin:0 0 .5em}p{margin:0 0 1em;line-height:1.6}a{color:#3498db;text-decoration:none}a:hover{text-decoration:underline}ul{list-style:none}img{max-width:100%;display:block}.container{max-width:1200px;margin:0 auto;padding:1rem}.flex{display:flex;gap:1rem}.grid-2,.grid-3{display:grid;gap:1rem}.flex-center{justify-content:center;align-items:center}.grid-2{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:repeat(3,1fr)}.btn{display:inline-block;padding:.75rem 1.5rem;border:none;background-color:#007bff;color:#fff;font-weight:700;border-radius:5px}.btn:hover{background-color:#0056b3}.btn-outline{background-color:transparent;border:2px solid #007bff;color:#007bff}.bg-primary,.btn-outline:hover{background-color:#007bff;color:#fff}input,select,textarea{padding:.5rem;border:1px solid #ccc;border-radius:3px;width:100%}input:focus,select:focus,textarea:focus{outline:0;border-color:#007bff}.card{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1)}.card h3{margin-top:0}.navbar{background-color:#333;padding:1rem;color:#fff;display:flex;justify-content:space-between}.navbar a{color:#fff;margin-left:1rem}.mt-1{margin-top:1rem}.mb-1{margin-bottom:1rem}.pt-1{padding-top:1rem}.pb-1{padding-bottom:1rem}@media (max-width:768px){.grid-2,.grid-3{grid-template-columns:1fr}.flex{flex-direction:column}}.fade-in{animation:1s ease-in-out fadeIn}@keyframes fadeIn{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}.clip-text{font-size:7rem;font-weight:900;color:transparent;background-image:url('/unpublished/images/parrot3.jpg');-webkit-background-clip:text;background-size:cover;background-position:center}.shadow-sm{box-shadow:0 1px 3px rgba(0,0,0,.1)}.shadow-lg{box-shadow:0 5px 15px rgba(0,0,0,.2)}.border{border:1px solid #ccc}.rounded{border-radius:8px}.circle{border-radius:50%}.bg-success{background-color:#28a745;color:#fff}.bg-warning{background-color:#ffc107;color:#000}.bg-danger{background-color:#dc3545;color:#fff}.loader{border:4px solid #f3f3f3;border-top:4px solid #007bff;border-radius:50%;width:40px;height:40px;animation:1s linear infinite spin;margin:auto}@keyframes spin{to{transform:rotate(360deg)}}.tooltip{position:relative}.tooltip::after{content:attr(data-tooltip);position:absolute;bottom:125%;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:.5em;border-radius:4px;opacity:0;pointer-events:none;transition:opacity .3s}.tooltip:hover::after{opacity:1} body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor:pointer}body{margin:0;font-family:'Segoe UI',sans-serif;background-color:#f9f9f9;color:#333}h1,h2,h3,h4,h5,h6{margin:0 0 .5em}p{margin:0 0 1em;line-height:1.6}a{color:#3498db;text-decoration:none}a:hover{text-decoration:underline}ul{list-style:none}img{max-width:100%;display:block}.container{max-width:1200px;margin:0 auto;padding:1rem}.flex{display:flex;gap:1rem}.grid-2,.grid-3{display:grid;gap:1rem}.flex-center{justify-content:center;align-items:center}.grid-2{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:repeat(3,1fr)}.btn{display:inline-block;padding:.75rem 1.5rem;border:none;background-color:#007bff;color:#fff;font-weight:700;border-radius:5px}.btn:hover{background-color:#0056b3}.btn-outline{background-color:transparent;border:2px solid #007bff;color:#007bff}.bg-primary,.btn-outline:hover{background-color:#007bff;color:#fff}input,select,textarea{padding:.5rem;border:1px solid #ccc;border-radius:3px;width:100%}input:focus,select:focus,textarea:focus{outline:0;border-color:#007bff}.card{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1)}.card h3{margin-top:0}.navbar{background-color:#333;padding:1rem;color:#fff;display:flex;justify-content:space-between}.navbar a{color:#fff;margin-left:1rem}.mt-1{margin-top:1rem}.mb-1{margin-bottom:1rem}.pt-1{padding-top:1rem}.pb-1{padding-bottom:1rem}@media (max-width:768px){.grid-2,.grid-3{grid-template-columns:1fr}.flex{flex-direction:column}}.fade-in{animation:1s ease-in-out fadeIn}@keyframes fadeIn{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}.clip-text{font-size:7rem;font-weight:900;color:transparent;background-image:url('/unpublished/images/parrot3.jpg');-webkit-background-clip:text;background-size:cover;background-position:center}.shadow-sm{box-shadow:0 1px 3px rgba(0,0,0,.1)}.shadow-lg{box-shadow:0 5px 15px rgba(0,0,0,.2)}.border{border:1px solid #ccc}.rounded{border-radius:8px}.circle{border-radius:50%}.bg-success{background-color:#28a745;color:#fff}.bg-warning{background-color:#ffc107;color:#000}.bg-danger{background-color:#dc3545;color:#fff}.loader{border:4px solid #f3f3f3;border-top:4px solid #007bff;border-radius:50%;width:40px;height:40px;animation:1s linear infinite spin;margin:auto}@keyframes spin{to{transform:rotate(360deg)}}.tooltip{position:relative}.tooltip::after{content:attr(data-tooltip);position:absolute;bottom:125%;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:.5em;border-radius:4px;opacity:0;pointer-events:none;transition:opacity .3s}.tooltip:hover::after{opacity:1} body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor:pointer}body{margin:0;font-family:'Segoe UI',sans-serif;background-color:#f9f9f9;color:#333}h1,h2,h3,h4,h5,h6{margin:0 0 .5em}p{margin:0 0 1em;line-height:1.6}a{color:#3498db;text-decoration:none}a:hover{text-decoration:underline}ul{list-style:none}img{max-width:100%;display:block}.container{max-width:1200px;margin:0 auto;padding:1rem}.flex{display:flex;gap:1rem}.grid-2,.grid-3{display:grid;gap:1rem}.flex-center{justify-content:center;align-items:center}.grid-2{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:repeat(3,1fr)}.btn{display:inline-block;padding:.75rem 1.5rem;border:none;background-color:#007bff;color:#fff;font-weight:700;border-radius:5px}.btn:hover{background-color:#0056b3}.btn-outline{background-color:transparent;border:2px solid #007bff;color:#007bff}.bg-primary,.btn-outline:hover{background-color:#007bff;color:#fff}input,select,textarea{padding:.5rem;border:1px solid #ccc;border-radius:3px;width:100%}input:focus,select:focus,textarea:focus{outline:0;border-color:#007bff}.card{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1)}.card h3{margin-top:0}.navbar{background-color:#333;padding:1rem;color:#fff;display:flex;justify-content:space-between}.navbar a{color:#fff;margin-left:1rem}.mt-1{margin-top:1rem}.mb-1{margin-bottom:1rem}.pt-1{padding-top:1rem}.pb-1{padding-bottom:1rem}@media (max-width:768px){.grid-2,.grid-3{grid-template-columns:1fr}.flex{flex-direction:column}}.fade-in{animation:1s ease-in-out fadeIn}@keyframes fadeIn{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}.clip-text{font-size:7rem;font-weight:900;color:transparent;background-image:url('/unpublished/images/parrot3.jpg');-webkit-background-clip:text;background-size:cover;background-position:center}.shadow-sm{box-shadow:0 1px 3px rgba(0,0,0,.1)}.shadow-lg{box-shadow:0 5px 15px rgba(0,0,0,.2)}.border{border:1px solid #ccc}.rounded{border-radius:8px}.circle{border-radius:50%}.bg-success{background-color:#28a745;color:#fff}.bg-warning{background-color:#ffc107;color:#000}.bg-danger{background-color:#dc3545;color:#fff}.loader{border:4px solid #f3f3f3;border-top:4px solid #007bff;border-radius:50%;width:40px;height:40px;animation:1s linear infinite spin;margin:auto}@keyframes spin{to{transform:rotate(360deg)}}.tooltip{position:relative}.tooltip::after{content:attr(data-tooltip);position:absolute;bottom:125%;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:.5em;border-radius:4px;opacity:0;pointer-events:none;transition:opacity .3s}.tooltip:hover::after{opacity:1}
+		</div>
+			<div class="slider">
+				<ul class="rslides">
+					<li><figure><img src="images/slider/1.png" alt="____________________"></figure></li>
+				</ul>
+				<div class="box_skitter box_skitter_large">
+					<ul>
+						<li><figure><img src="images/slider/1.png" alt="____________________" class="random"></figure></li>
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="banner_info_container wow fadeInLeft" data-wow-duration="2000ms" data-wow-delay="1000ms">
+
+				<div class="bnr_info">
+					<h2 class="heading2"><q>HI I'm Brainard</q><q class="bnr_typed"><span class="auto-type harlow"></span></q></h2>
+					<p>I specialize in building clean, responsive, and user-friendly websites and web applications. With a strong eye for design and a passion for code, I bring ideas to life through modern frameworks like React and Vue, and I craft flexible, high-performing websites using WordPress and React</p>	
+				</div>
+
+				<div class="bnr_soc">
+					<button onclick="downloadFile()" class="btn-5">Download CV</button>
+					<div class="social_media ">
+						<ul>
+							<li><a href="https://www.facebook.com/brainard.delola" target="_blank"><figure><img src="images/icons/fb-icon.png" alt="facebook"></figure></a></li>
+							<li><a href="https://www.linkedin.com/in/brainard-delola-188841261/" target="_blank"><figure><img src="images/icons/linkedin-icon.png" alt="linkedin"></figure></a></li>
+							<li><a href="https://www.twitter.com" target="_blank"><figure><img src="images/icons/gmail-icon.png" alt="gmail"></figure></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- End Banner -->
+
+<!-- Middle -->
+<div id="middle">
+	<div class="wrapper">
+		<div class="middle_con">
+			
+			<div class="mid_info">
+				<h2 class="heading2">My Works<span class="line_design"></span></h2>
+			</div> 
+
+			<div class="middle_boxes owl-carousel">
+
+				<section class="mid_box1">
+				<figure><img src="images/mid-img1.png" alt=""></figure>	
+					<div class="mid_info_box">
+						<h2>Work #1</h2>
+						<a href="https://www.diamondmedmarketing.com/" rel="no-follow">View Site</a>
+					</div>
+				</section>
+
+				<section class="mid_box2">
+				<figure><img src="images/mid-img2.png" alt=""></figure>	
+					<div class="mid_info_box">
+						<h2>Work #2</h2>
+						<a href="https://www.nerdbrosolutions.com/" rel="no-follow">View Site</a>
+					</div>
+				</section>
+
+				<section class="mid_box3">
+				<figure><img src="images/mid-img3.png" alt=""></figure>	
+					<div class="mid_info_box">
+						<h2>Work #3</h2>
+						<a href="https://www.mynemtsolution.com/" rel="no-follow">View Site</a>
+					</div>
+				</section>
+
+				<section class="mid_box4">
+				<figure><img src="images/mid-img4.png" alt=""></figure>	
+					<div class="mid_info_box">
+						<h2>Work #4</h2>
+						<a href="https://www.providencegardeninc.com/" rel="no-follow">View Site</a>
+					</div>
+				</section>
+
+			</div>
+
+			<a href="https://sites.google.com/view/narddev/wokrs" class="more_works">View More Works</a>
+
+		</div>
+	</div>
+</div>
+<!-- End Middle -->
+
+<!-- Main -->
+<div id="main_area">
+	<div class="wrapper">
+		<div class="main_con">
+			
+			<div class="main_info">
+				<h1 class="h1_title heading2"><small class="subHead2 capital">About Me </small>Nard <span class="line_design"></span></h1>
+			</div>
+
+			<div class="main_container">
+				<main>
+					<p>Hi, I'm <q class="comp">Brainard Delola</q>, a passionate Front-End Developer with a focus on creating clean, responsive, and user-friendly web interfaces. With hands-on experience in WordPress, React, and Vue, I specialize in bringing designs to life and building seamless digital experiences.</p>
+
+					<p>I’ve worked on a wide range of projects — from custom WordPress themes and plugins to modern single-page applications using JavaScript frameworks. Whether it’s optimizing performance, improving accessibility, or implementing pixel-perfect UI, I always strive for quality and efficiency in every line of code.</p>
+
+					<p>I'm driven by continuous learning and always looking for new challenges that help me grow both as a developer and a collaborator.</p>
+				</main>
+
+				<div class="main_images hidden ">
+					<figure class="main_img wow slideInUp" data-wow-duration="2545ms" data-wow-delay="1700ms"><img src="images/main-img.png" alt="anime image"></figure>
+				</div>
+			</div>
+
+		<div class="main_design_box">
+			<span class="Box1 wow rotateIn" data-wow-duration="2000ms"></span>
+			<span class="Box2 wow rotateIn" data-wow-duration="2000ms"></span>
+			<span class="Box3 wow rotateIn" data-wow-duration="2000ms"></span>
+		</div>
+			
+		</div>
+
+	<div class="clearfix"></div>
+	</div>
+</div>
+<!-- End Main -->
+
+
+<!-- Bottom -->
+<div id="bottom1">
+	<div class="wrapper">
+		<div class="btm1_con">
+
+			<div class="btm1_info">
+				<h2 class="heading2">Tech Stack <span class="line_design"></span></h2>
+			</div>
+
+			<div class="btm1_boxes">
+
+				<section class="btm1_box1 wow slideInLeft" data-wow-duration="1500ms">
+					<div class="btm1_box_info btm1_infos1">
+					<h2>Web <span>Design</span></h2>
+					<ul>
+						<li>Figma</li>
+						<li>Xara</li>
+					</ul>
+					</div>
+				</section>
+
+				<section class="btm1_box2 wow fadeIn" data-wow-duration="2000ms" data-wow-delay="1000ms">
+					<div class="btm1_box_info btm1_infos2">
+					<h2>Web <span>Development</span></h2>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Java Sctipt</li>
+						<li>PHP</li>
+						<li>Wordpress</li>
+						<li>Laravel</li>
+					</ul>
+					</div>
+				</section>
+
+				<section class="btm1_box3 wow fadeIn" data-wow-duration="2000ms" data-wow-delay="2000ms">
+					<div class="btm1_box_info btm1_infos3">
+					<h2>Data base <span></span></h2>
+					<ul>
+						<li>My sql</li>
+					</ul>
+					</div>
+				</section>
+
+				<section class="btm1_box3 wow fadeIn" data-wow-duration="2000ms" data-wow-delay="3000ms">
+					<div class="btm1_box_info btm1_infos4">
+					<h2>Framework <span></span></h2>
+					<ul>
+						<li>React</li>
+						<li>Angular</li>
+					</ul>
+					</div>
+				</section>
+
+			</div>
+
+				<div class="main_design_box">
+			<span class="Box1 wow rotateIn" data-wow-duration="2000ms"></span>
+			<span class="Box2 wow rotateIn" data-wow-duration="2000ms"></span>
+			<span class="Box3 wow rotateIn" data-wow-duration="2000ms"></span>
+				</div>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="bottom2">
+	<div class="wrapper">
+		<div class="btm2_con">
+		
+			<div class="btm2_info">
+				<h2 class="heading2">Services <span class="line_design"></span></h2>
+			</div>
+
+			<div class="btm2_boxes">
+
+				<section class="btm2_box1">
+					<figure><img src="images/icons/btm2-icon1.png" alt="web design"></figure>
+					<div class="btm2_box_info btm2_infos1">
+						<h2>Design <small>Crafting visually engaging and responsive interfaces.</small></h2>
+						<p>I create modern, user-friendly designs that work seamlessly across all devices — ensuring your site not only looks great but feels intuitive too.</p>
+					</div>
+				</section>
+
+				<section class="btm2_box2">
+					<figure><img src="images/icons/btm2-icon2.png" alt="web development"></figure>
+					<div class="btm2_box_info btm2_infos2">
+						<h2>Developing <small>Code that brings your ideas to life.</small></h2>
+						<p>I build scalable and efficient front-end solutions using modern frameworks like React and Vue, tailored to your unique goals and branding.</p>
+					</div>
+				</section>
+
+				<section class="btm2_box3">
+					<figure><img src="images/icons/btm2-icon3.png" alt="web deployment"></figure>
+					<div class="btm2_box_info btm2_infos3">
+						<h2>Deployment <small>Launch-ready and stress-free.</small></h2>
+						<p>From code to live site, I handle the final steps — ensuring smooth deployment, bug fixing, and ongoing support whenever needed.</p>
+					</div>
+				</section>
+
+				
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div id="bottom3">
+	<div class="wrapper">
+		<div class="btm3_con">
+		
+			<div class="btm3_info">
+				<h2 class="heading2">Contact Me <span class="line_design"></span></h2>
+			</div>
+
+			<div class="bmt3_flex">
+
+			<div class="btm_form ">
+				<form class="form" id="submit_formmessage" action="#bottom3" method="post">
+					<div id="invalid-msg"></div>
+							<span class="placeholder">Name: </span>
+							<input class="wow fadeInLeft form_fullname btm_input1" data-wow-duration="2000ms" type="text" name="Full_Name" value="" placeholder="*Full Name " required="">
+							<span class="placeholder">Email: </span>
+							<input class="wow fadeInLeft form_email btm_input2" data-wow-duration="2000ms" data-wow-delay="500ms" type="email" name="Email_Address" value="" placeholder="*Email Address " required="">
+							<span class="placeholder">Message: </span>
+						<textarea class="btm_input3 wow fadeInLeft" data-wow-duration="2000ms" data-wow-delay="1000ms" name="Question_or_Comment" placeholder="Message(s)"></textarea>
+						<div class="btn_submit">
+							<button type="submit" name="submit_info" class="form_btn wow fadeInLeft" data-wow-duration="2000ms" data-wow-delay="1500ms">Submit </button>
+							
+						</div>
+				</form>
+			</div>
+
+			<div class="bm3_img">
+				<figure><img src="images/undraw_quick-chat_3gj8.svg" alt="message illustration"></figure>
+			</div>
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<!-- End Bottom -->
+
+<!--Footer -->
+<footer>
+<div class="footer_top">
+	<div class="wrapper">
+		<div class="footer_top_con">
+
+			
+				<div class="footer_logo">
+				<a href="home"><figure><img src="images/footer-logo.png" alt="Nard.Dev"></figure></a>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="footer_btm">
+  <div class="wrapper">
+			<div class="footer_btm_con">
+				  <a class="copyrigh_text">Designed by</a> <a href="https://www.facebook.com/brainard.delola" target="_blank" rel="nofollow">Nard.Dev</a>
+				</div>
+			</div>
+		</div>
+</div>
+</footer>
+
+	<span class="back_top"></span>
+
+  </div> <!-- End Clearfix -->
+  </div> <!-- End Protect Me -->
+
+  <!--
+  Solved HTML5 & CSS IE Issues
+  -->
+  <script src="js/modernizr-custom-v2.7.1.min.js"></script>
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="js/jquery-migrate-1.4.1.min.js"></script>
+
+  <!--
+  Solved Psuedo Elements IE Issues
+  -->
+  <script src="js/calcheight.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.skitter.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</body>
+</html>
+<!-- End Footer -->
