@@ -178,7 +178,58 @@ $(document).ready(function(){
 		}
 		// End (AddThis) Plugins
 
-		
+			  if ($('#container').length >= 1) {
+
+             var fixbtmbg = $('#container').offset().top;
+                 if (windowScroll > fixbtmbg && window_width > 1024){
+
+                 $('.container_parallax').addClass('fixbtmbg');
+                     } else {
+                 $('.container_parallax').removeClass('fixbtmbg');
+                }
+         }
+
+			  if ($('#middle').length >= 1) {
+
+             var fixbtmbg = $('#middle').offset().top;
+                 if (windowScroll > fixbtmbg && window_width > 1024){
+
+                 $('.middle_parallax').addClass('fixbtmbg');
+                     } else {
+                 $('.middle_parallax').removeClass('fixbtmbg');
+                }
+         }
+	  if ($('#main_area').length >= 1) {
+
+             var fixbtmbg = $('#main_area').offset().top;
+                 if (windowScroll > fixbtmbg && window_width > 1024){
+
+                 $('.main_parallax').addClass('fixbtmbg');
+                     } else {
+                 $('.main_parallax').removeClass('fixbtmbg');
+                }
+         }  if ($('#bottom1').length >= 1) {
+
+             var fixbtmbg = $('#bottom1').offset().top;
+                 if (windowScroll > fixbtmbg && window_width > 1024){
+
+                 $('.bottom1_parallax').addClass('fixbtmbg');
+                     } else {
+                 $('.bottom1_parallax').removeClass('fixbtmbg');
+                }
+         }
+
+		 	 if ($('#bottom2').length >= 1) {
+
+             var fixbtmbg = $('#bottom2').offset().top;
+                 if (windowScroll > fixbtmbg && window_width > 1024){
+
+                 $('.bottom2_parallax').addClass('fixbtmbg');
+                     } else {
+                 $('.bottom2_parallax').removeClass('fixbtmbg');
+                }
+         }
+
 	});
 
 	// Testimonial 
@@ -289,10 +340,10 @@ responsive: {
 items: 1
 },
 600: {
-items: 1
+items: 2
 },
 1000: {
-items: 1
+items: 3
 }
 }
 })
@@ -349,3 +400,27 @@ const lenis = new Lenis()
       document.body.removeChild(link);
     }
 		
+	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    const offset = 0; // height of navbar
+    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    const duration = 900; // milliseconds → increase to slow down
+    let start = null;
+
+    function step(timestamp) {
+      if (!start) start = timestamp;
+      const progress = timestamp - start;
+      const ease = progress / duration; // linear easing
+      window.scrollTo(0, startPosition + distance * ease);
+      if (progress < duration) {
+        requestAnimationFrame(step);
+      }
+    }
+
+    requestAnimationFrame(step);
+  });
+});
