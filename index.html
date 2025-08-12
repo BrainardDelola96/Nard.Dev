@@ -9,7 +9,7 @@
   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
 	<title>Nard.Dev</title>
-	<link rel="icon" type="image/x-icon" href="/images/main-logo.png">
+	<link rel="icon" type="image/png" href="images/footer-logo.png">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/hamburgers.min.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -27,6 +27,8 @@
 
 <!-- Header -->
 <div class="orb"></div>
+<div id="container">
+	<div class="container_parallax" id="home">
 <div class="navhead">
 <header>
 	<div class="wrapper">
@@ -43,9 +45,7 @@
 			</div>
 
 			<div class="head_info">
-				
-				
-				
+				<h2>Brainard <span>Delola</span></h2>
 			</div>
 		</div>
 	  <div class="clearfix"></div>
@@ -84,12 +84,12 @@
 
 			<div class="wrapper">
 				<ul>
-					<li class="current_page_item"><a href="">Home</a></li>
-					<li><a href="">About Me</a></li>
-					<li><a href="">Services</a></li>
-					<li><a href="">My Works</a></li>
-					<li><a href="">My Skills</a></li>
-					<li><a href="">Contact Us</a></li>
+					<li class="current_page_item wow fadeInRight" data-wow-duration="2000ms"><a href="#home">Home</a></li>
+					<li class="wow fadeInRight" data-wow-duration="2000ms" data-wow-delay="400ms"><a href="#about">About Me</a></li>
+					<li class="wow fadeInRight" data-wow-duration="2000ms" data-wow-delay="800ms"><a href="#services">Services</a></li>
+					<li class="wow fadeInRight" data-wow-duration="2000ms" data-wow-delay="1200ms"><a href="#work">My Works</a></li>
+					<li class="wow fadeInRight" data-wow-duration="2000ms" data-wow-delay="1600ms"><a href="#skills">My Skills</a></li>
+					<li class="wow fadeInRight" data-wow-duration="2000ms" data-wow-delay="2000ms"><a href="#contact">Contact Us</a></li>
 				</ul>
 			</div>
 	  </nav>
@@ -109,11 +109,10 @@
 	
 	<div class="wrapper">
 		<div class="bnr_con">
+			<div class="bnr_img">
+				<figure><img src="images/banner-img.png" alt="hacker man"></figure>
+			</div>
 
-
-		<div class="text_background wow fadeInUp" data-wow-duration="2000ms">
-body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor:pointer}body{margin:0;font-family:'Segoe UI',sans-serif;background-color:#f9f9f9;color:#333}h1,h2,h3,h4,h5,h6{margin:0 0 .5em}p{margin:0 0 1em;line-height:1.6}a{color:#3498db;text-decoration:none}a:hover{text-decoration:underline}ul{list-style:none}img{max-width:100%;display:block}.container{max-width:1200px;margin:0 auto;padding:1rem}.flex{display:flex;gap:1rem}.grid-2,.grid-3{display:grid;gap:1rem}.flex-center{justify-content:center;align-items:center}.grid-2{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:repeat(3,1fr)}.btn{display:inline-block;padding:.75rem 1.5rem;border:none;background-color:#007bff;color:#fff;font-weight:700;border-radius:5px}.btn:hover{background-color:#0056b3}.btn-outline{background-color:transparent;border:2px solid #007bff;color:#007bff}.bg-primary,.btn-outline:hover{background-color:#007bff;color:#fff}input,select,textarea{padding:.5rem;border:1px solid #ccc;border-radius:3px;width:100%}input:focus,select:focus,textarea:focus{outline:0;border-color:#007bff}.card{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1)}.card h3{margin-top:0}.navbar{background-color:#333;padding:1rem;color:#fff;display:flex;justify-content:space-between}.navbar a{color:#fff;margin-left:1rem}.mt-1{margin-top:1rem}.mb-1{margin-bottom:1rem}.pt-1{padding-top:1rem}.pb-1{padding-bottom:1rem}@media (max-width:768px){.grid-2,.grid-3{grid-template-columns:1fr}.flex{flex-direction:column}}.fade-in{animation:1s ease-in-out fadeIn}@keyframes fadeIn{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}.clip-text{font-size:7rem;font-weight:900;color:transparent;background-image:url('/unpublished/images/parrot3.jpg');-webkit-background-clip:text;background-size:cover;background-position:center}.shadow-sm{box-shadow:0 1px 3px rgba(0,0,0,.1)}.shadow-lg{box-shadow:0 5px 15px rgba(0,0,0,.2)}.border{border:1px solid #ccc}.rounded{border-radius:8px}.circle{border-radius:50%}.bg-success{background-color:#28a745;color:#fff}.bg-warning{background-color:#ffc107;color:#000}.bg-danger{background-color:#dc3545;color:#fff}.loader{border:4px solid #f3f3f3;border-top:4px solid #007bff;border-radius:50%;width:40px;height:40px;animation:1s linear infinite spin;margin:auto}@keyframes spin{to{transform:rotate(360deg)}}.tooltip{position:relative}.tooltip::after{content:attr(data-tooltip);position:absolute;bottom:125%;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:.5em;border-radius:4px;opacity:0;pointer-events:none;transition:opacity .3s}.tooltip:hover::after{opacity:1} body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor:pointer}body{margin:0;font-family:'Segoe UI',sans-serif;background-color:#f9f9f9;color:#333}h1,h2,h3,h4,h5,h6{margin:0 0 .5em}p{margin:0 0 1em;line-height:1.6}a{color:#3498db;text-decoration:none}a:hover{text-decoration:underline}ul{list-style:none}img{max-width:100%;display:block}.container{max-width:1200px;margin:0 auto;padding:1rem}.flex{display:flex;gap:1rem}.grid-2,.grid-3{display:grid;gap:1rem}.flex-center{justify-content:center;align-items:center}.grid-2{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:repeat(3,1fr)}.btn{display:inline-block;padding:.75rem 1.5rem;border:none;background-color:#007bff;color:#fff;font-weight:700;border-radius:5px}.btn:hover{background-color:#0056b3}.btn-outline{background-color:transparent;border:2px solid #007bff;color:#007bff}.bg-primary,.btn-outline:hover{background-color:#007bff;color:#fff}input,select,textarea{padding:.5rem;border:1px solid #ccc;border-radius:3px;width:100%}input:focus,select:focus,textarea:focus{outline:0;border-color:#007bff}.card{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1)}.card h3{margin-top:0}.navbar{background-color:#333;padding:1rem;color:#fff;display:flex;justify-content:space-between}.navbar a{color:#fff;margin-left:1rem}.mt-1{margin-top:1rem}.mb-1{margin-bottom:1rem}.pt-1{padding-top:1rem}.pb-1{padding-bottom:1rem}@media (max-width:768px){.grid-2,.grid-3{grid-template-columns:1fr}.flex{flex-direction:column}}.fade-in{animation:1s ease-in-out fadeIn}@keyframes fadeIn{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}.clip-text{font-size:7rem;font-weight:900;color:transparent;background-image:url('/unpublished/images/parrot3.jpg');-webkit-background-clip:text;background-size:cover;background-position:center}.shadow-sm{box-shadow:0 1px 3px rgba(0,0,0,.1)}.shadow-lg{box-shadow:0 5px 15px rgba(0,0,0,.2)}.border{border:1px solid #ccc}.rounded{border-radius:8px}.circle{border-radius:50%}.bg-success{background-color:#28a745;color:#fff}.bg-warning{background-color:#ffc107;color:#000}.bg-danger{background-color:#dc3545;color:#fff}.loader{border:4px solid #f3f3f3;border-top:4px solid #007bff;border-radius:50%;width:40px;height:40px;animation:1s linear infinite spin;margin:auto}@keyframes spin{to{transform:rotate(360deg)}}.tooltip{position:relative}.tooltip::after{content:attr(data-tooltip);position:absolute;bottom:125%;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:.5em;border-radius:4px;opacity:0;pointer-events:none;transition:opacity .3s}.tooltip:hover::after{opacity:1} body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor:pointer}body{margin:0;font-family:'Segoe UI',sans-serif;background-color:#f9f9f9;color:#333}h1,h2,h3,h4,h5,h6{margin:0 0 .5em}p{margin:0 0 1em;line-height:1.6}a{color:#3498db;text-decoration:none}a:hover{text-decoration:underline}ul{list-style:none}img{max-width:100%;display:block}.container{max-width:1200px;margin:0 auto;padding:1rem}.flex{display:flex;gap:1rem}.grid-2,.grid-3{display:grid;gap:1rem}.flex-center{justify-content:center;align-items:center}.grid-2{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:repeat(3,1fr)}.btn{display:inline-block;padding:.75rem 1.5rem;border:none;background-color:#007bff;color:#fff;font-weight:700;border-radius:5px}.btn:hover{background-color:#0056b3}.btn-outline{background-color:transparent;border:2px solid #007bff;color:#007bff}.bg-primary,.btn-outline:hover{background-color:#007bff;color:#fff}input,select,textarea{padding:.5rem;border:1px solid #ccc;border-radius:3px;width:100%}input:focus,select:focus,textarea:focus{outline:0;border-color:#007bff}.card{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1)}.card h3{margin-top:0}.navbar{background-color:#333;padding:1rem;color:#fff;display:flex;justify-content:space-between}.navbar a{color:#fff;margin-left:1rem}.mt-1{margin-top:1rem}.mb-1{margin-bottom:1rem}.pt-1{padding-top:1rem}.pb-1{padding-bottom:1rem}@media (max-width:768px){.grid-2,.grid-3{grid-template-columns:1fr}.flex{flex-direction:column}}.fade-in{animation:1s ease-in-out fadeIn}@keyframes fadeIn{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}.clip-text{font-size:7rem;font-weight:900;color:transparent;background-image:url('/unpublished/images/parrot3.jpg');-webkit-background-clip:text;background-size:cover;background-position:center}.shadow-sm{box-shadow:0 1px 3px rgba(0,0,0,.1)}.shadow-lg{box-shadow:0 5px 15px rgba(0,0,0,.2)}.border{border:1px solid #ccc}.rounded{border-radius:8px}.circle{border-radius:50%}.bg-success{background-color:#28a745;color:#fff}.bg-warning{background-color:#ffc107;color:#000}.bg-danger{background-color:#dc3545;color:#fff}.loader{border:4px solid #f3f3f3;border-top:4px solid #007bff;border-radius:50%;width:40px;height:40px;animation:1s linear infinite spin;margin:auto}@keyframes spin{to{transform:rotate(360deg)}}.tooltip{position:relative}.tooltip::after{content:attr(data-tooltip);position:absolute;bottom:125%;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:.5em;border-radius:4px;opacity:0;pointer-events:none;transition:opacity .3s}.tooltip:hover::after{opacity:1}
-		</div>
 			<div class="slider">
 				<ul class="rslides">
 					<li><figure><img src="images/slider/bn1.png" alt="____________________"></figure></li>
@@ -130,38 +129,39 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 				</div>
 			</div>
 
-			<div class="banner_info_container wow fadeInLeft" data-wow-duration="2000ms" data-wow-delay="1000ms">
+			<div class="banner_info_container">
 
-				<div class="bnr_info">
-					<h2 class="heading2"><q>HI I'm Brainard</q><q class="bnr_typed"><span class="auto-type harlow"></span></q></h2>
-					<p>I specialize in building clean, responsive, and user-friendly websites and web applications. With a strong eye for design and a passion for code, I bring ideas to life through modern frameworks like React and Vue, and I craft flexible, high-performing websites using WordPress and React</p>	
+				<div class="bnr_info ">
+					<h2 class="heading2 wow fadeInUp" data-wow-duration="2400ms"><q>Brainard <cite>Delola</cite></q><span class="auto-type harlow"></span></h2>
+					<button onclick="downloadFile()" class="btn-5 wow fadeInUp" data-wow-duration="2400ms" data-wow-delay="500ms">Download CV</button>
 				</div>
 
-				<div class="bnr_soc">
-					<button onclick="downloadFile()" class="btn-5">Download CV</button>
-					<div class="social_media ">
-						<ul>
-							<li><a href="https://www.facebook.com/brainard.delola" target="_blank"><figure><img src="images/icons/fb-icon.png" alt="facebook"></figure></a></li>
-							<li><a href="https://www.linkedin.com/in/brainard-delola-188841261/" target="_blank"><figure><img src="images/icons/linkedin-icon.png" alt="linkedin"></figure></a></li>
-							<li><a href="https://www.twitter.com" target="_blank"><figure><img src="images/icons/gmail-icon.png" alt="gmail"></figure></a></li>
-						</ul>
-					</div>
-				</div>
-
+				<div class="social_media wow fadeInUp" data-wow-duration="2400ms">
+				<ul>
+					<li><a href="https://www.facebook.com/brainard.delola" target="_blank"><figure><img src="images/icons/fb-icon.png" alt="facebook"></figure></a></li>
+					<li><a href="https://www.linkedin.com/in/brainard-delola-188841261/" target="_blank"><figure><img src="images/icons/linkedin-icon.png" alt="linkedin"></figure></a></li>
+					<li><a href="https://www.twitter.com" target="_blank"><figure><img src="images/icons/gmail-icon.png" alt="gmail"></figure></a></li>
+				</ul>
 			</div>
+			</div>
+
+			
 
 		</div>
 	</div>
 </div>
 <!-- End Banner -->
+ </div>
+ </div>
 
 <!-- Middle -->
-<div id="middle">
+<div id="middle" >
+	<div class="middle_parallax" id="work">
 	<div class="wrapper">
 		<div class="middle_con">
 			
 			<div class="mid_info">
-				<h2 class="heading2">My Works<span class="line_design"></span></h2>
+				<h2 class="heading2">My Works <cite>Websites<span class="line_design"></cite></span></h2>
 			</div> 
 
 			<div class="middle_boxes owl-carousel">
@@ -204,16 +204,18 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 
 		</div>
 	</div>
+	</div>
 </div>
 <!-- End Middle -->
 
 <!-- Main -->
-<div id="main_area">
+<div id="main_area" >
+	<div class="main_parallax" id="about">
 	<div class="wrapper">
 		<div class="main_con">
 			
 			<div class="main_info">
-				<h1 class="h1_title heading2"><small class="subHead2 capital">About Me </small>Nard <span class="line_design"></span></h1>
+				<h1 class="h1_title heading2"><small class="subHead2 capital">About Me </small><cite>Nard <span class="line_design"></span></cite></h1>
 			</div>
 
 			<div class="main_container">
@@ -240,17 +242,55 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 
 	<div class="clearfix"></div>
 	</div>
+	</div>
 </div>
 <!-- End Main -->
 
 
 <!-- Bottom -->
-<div id="bottom1">
+<div id="bottom1" >
+	<div class="bottom1_parallax" id="skills">
 	<div class="wrapper">
 		<div class="btm1_con">
 
 			<div class="btm1_info">
-				<h2 class="heading2">Tech Stack <span class="line_design"></span></h2>
+				<h2 class="heading2">Tech Stack <cite>Languages<span class="line_design"></span></cite></h2>
+			</div>
+
+			<div class="btm1_boxes">
+				<section>
+					<figure><img src="images/icons/btm1-icon6.png" alt="React"></figure>
+					<div class="bm1_info">
+						<h2>React</h2>
+						<p>Framework</p>
+					</div>
+				</section>
+				<section>
+					<figure><img src="images/icons/btm1-icon7.png" alt="Angular"></figure>
+					<div class="bm1_info">
+						<h2>Angular</h2>
+						<p>Framework</p>
+					</div>
+				</section>
+			</div>
+				
+			<div class="btm1_boxes">
+				
+				<section>
+					<figure><img src="images/icons/btm1-icon10.png" alt="figma"></figure>
+					<div class="bm1_info">
+						<h2>Figma</h2>
+						<p>Web Design</p>
+					</div>
+				</section>
+				<section>
+					<figure><img src="images/icons/btm1-icon11.png" alt="xara"></figure>
+					<div class="bm1_info">
+						<h2>Xara</h2>
+						<p>Web Design</p>
+					</div>
+				</section>
+
 			</div>
 
 			<div class="btm1_boxes">
@@ -276,6 +316,10 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 						<p>Web Development</p>
 					</div>
 				</section>
+			</div>
+
+
+			<div class="btm1_boxes">
 				<section>
 					<figure><img src="images/icons/btm1-icon4.png" alt="Php"></figure>
 					<div class="bm1_info">
@@ -288,20 +332,6 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 					<div class="bm1_info">
 						<h2>Laravel</h2>
 						<p>Backend</p>
-					</div>
-				</section>
-				<section>
-					<figure><img src="images/icons/btm1-icon6.png" alt="React"></figure>
-					<div class="bm1_info">
-						<h2>React</h2>
-						<p>Framework</p>
-					</div>
-				</section>
-				<section>
-					<figure><img src="images/icons/btm1-icon7.png" alt="Angular"></figure>
-					<div class="bm1_info">
-						<h2>Angular</h2>
-						<p>Framework</p>
 					</div>
 				</section>
 				<section>
@@ -318,21 +348,6 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 						<p>Database</p>
 					</div>
 				</section>
-				<section>
-					<figure><img src="images/icons/btm1-icon10.png" alt="figma"></figure>
-					<div class="bm1_info">
-						<h2>Figma</h2>
-						<p>Web Design</p>
-					</div>
-				</section>
-				<section>
-					<figure><img src="images/icons/btm1-icon11.png" alt="xara"></figure>
-					<div class="bm1_info">
-						<h2>Xara</h2>
-						<p>Web Design</p>
-					</div>
-				</section>
-
 			</div>
 
 				<div class="main_design_box">
@@ -342,16 +357,18 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 				</div>
 
 
+			</div>
 		</div>
 	</div>
 </div>
 
-<div id="bottom2">
+<div id="bottom2" >
+	<div class="bottom2_parallax" id="services">
 	<div class="wrapper">
 		<div class="btm2_con">
 		
 			<div class="btm2_info">
-				<h2 class="heading2">Services <span class="line_design"></span></h2>
+				<h2 class="heading2">Services <cite>We Offer<span class="line_design"></span></cite></h2>
 			</div>
 
 			<div class="btm2_boxes">
@@ -386,14 +403,15 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 			
 		</div>
 	</div>
+	</div>
 </div>
 
-<div id="bottom3">
+<div id="bottom3" >
 	<div class="wrapper">
-		<div class="btm3_con">
+		<div class="btm3_con" id="contact">
 		
 			<div class="btm3_info">
-				<h2 class="heading2">Contact Me <span class="line_design"></span></h2>
+				<h2 class="heading2">Contact <cite>Me <span class="line_design"></span></cite></h2>
 			</div>
 
 			<div class="bmt3_flex">
@@ -402,13 +420,13 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 				<form class="form" id="submit_formmessage" action="#bottom3" method="post">
 					<div id="invalid-msg"></div>
 							<span class="placeholder">Name: </span>
-							<input class="wow fadeInLeft form_fullname btm_input1" data-wow-duration="2000ms" type="text" name="Full_Name" value="" placeholder="Full Name " required="">
+							<input class="form_fullname btm_input1"  type="text" name="Full_Name" value="" placeholder="*Full Name " required="">
 							<span class="placeholder">Email: </span>
-							<input class="wow fadeInLeft form_email btm_input2" data-wow-duration="2000ms" data-wow-delay="500ms" type="email" name="Email_Address" value="" placeholder="Email Address " required="">
+							<input class=" form_email btm_input2"   type="email" name="Email_Address" value="" placeholder="*Email Address " required="">
 							<span class="placeholder">Message: </span>
-						<textarea class="btm_input3 wow fadeInLeft" data-wow-duration="2000ms" data-wow-delay="1000ms" name="Question_or_Comment" placeholder="Message(s)"></textarea>
+						<textarea class="btm_input3 "  name="Question_or_Comment" placeholder="Message(s)"></textarea>
 						<div class="btn_submit">
-							<button type="submit" name="submit_info" class="form_btn wow fadeInLeft" data-wow-duration="2000ms" data-wow-delay="1500ms">Submit </button>
+							<button type="submit" name="submit_info" class="form_btn "  >Submit </button>
 							
 						</div>
 				</form>
@@ -434,7 +452,7 @@ body,ul{padding:0}.clip-text,.text-center{text-align:center}.btn,.tooltip{cursor
 
 			
 				<div class="footer_logo">
-				<a href="home"><figure><img src="images/footer-logo.png" alt="Nard.Dev"></figure></a>
+				<a href="#home"><figure><img src="images/footer-logo.png" alt="Nard.Dev"></figure></a>
 			</div>
 
 		</div>
