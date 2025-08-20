@@ -83,16 +83,23 @@ $(document).ready(function(){
 	// Swap Elements
 	function swap_this(){
 		if(window_width <= 600){
-
+			$('.main_logo').insertAfter('.logo_wrap');
+			$('#nav_area').insertBefore('header');
+			$('#bottom2').insertAfter('#main_area');
+			$('#middle').insertAfter('#bottom2');
 		
 		}else if(window_width <= 800){
 			$('.main_logo').insertAfter('.logo_wrap');
 			$('#nav_area').insertBefore('header');
+			$('#bottom2').insertAfter('#main_area');
+			$('#middle').insertAfter('#bottom2');
 
 
 		} else if(window_width > 800 && window_width <= 1000){
 			$('.main_logo').insertBefore('.head_info');
 			$('#nav_area').insertAfter('header');
+			$('#bottom2').insertAfter('#main_area');
+			$('#middle').insertAfter('#bottom2');
 
 			
 		} else {
@@ -181,7 +188,7 @@ $(document).ready(function(){
 			  if ($('#container').length >= 1) {
 
              var fixbtmbg = $('#container').offset().top;
-                 if (windowScroll > fixbtmbg && window_width > 1024){
+                 if (windowScroll > fixbtmbg && window_width > 1000){
 
                  $('.container_parallax').addClass('fixbtmbg');
                      } else {
@@ -192,7 +199,7 @@ $(document).ready(function(){
 			  if ($('#middle').length >= 1) {
 
              var fixbtmbg = $('#middle').offset().top;
-                 if (windowScroll > fixbtmbg && window_width > 1024){
+                 if (windowScroll > fixbtmbg && window_width > 1000){
 
                  $('.middle_parallax').addClass('fixbtmbg');
                      } else {
@@ -202,7 +209,7 @@ $(document).ready(function(){
 	  if ($('#main_area').length >= 1) {
 
              var fixbtmbg = $('#main_area').offset().top;
-                 if (windowScroll > fixbtmbg && window_width > 1024){
+                 if (windowScroll > fixbtmbg && window_width > 1000){
 
                  $('.main_parallax').addClass('fixbtmbg');
                      } else {
@@ -211,7 +218,7 @@ $(document).ready(function(){
          }  if ($('#bottom1').length >= 1) {
 
              var fixbtmbg = $('#bottom1').offset().top;
-                 if (windowScroll > fixbtmbg && window_width > 1024){
+                 if (windowScroll > fixbtmbg && window_width > 1000){
 
                  $('.bottom1_parallax').addClass('fixbtmbg');
                      } else {
@@ -222,7 +229,7 @@ $(document).ready(function(){
 		 	 if ($('#bottom2').length >= 1) {
 
              var fixbtmbg = $('#bottom2').offset().top;
-                 if (windowScroll > fixbtmbg && window_width > 1024){
+                 if (windowScroll > fixbtmbg && window_width > 1000){
 
                  $('.bottom2_parallax').addClass('fixbtmbg');
                      } else {
@@ -340,9 +347,15 @@ responsive: {
 items: 1
 },
 600: {
+items: 1
+},
+601: {
 items: 2
 },
 1000: {
+items: 2
+},
+1001: {
 items: 3
 }
 }
