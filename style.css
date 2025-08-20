@@ -112,7 +112,7 @@ a[href^="tel:"]{color: inherit!important; text-decoration: none;}
 
 /*end preset*/
 
-.wrapper{ width:100%; max-width: 1700px; margin: 0 auto; position: relative;}
+.wrapper{ width:100%; max-width: 1375px; margin: 0 auto; position: relative;}
 
 .line_design{max-width: 200px;height: 2px;display: inline-block;background: var(--headingColor);width: 100%;position: relative;top: -10px;margin-left: 0;}
 
@@ -120,11 +120,12 @@ a[href^="tel:"]{color: inherit!important; text-decoration: none;}
 #container { min-height: 947px; }
 .container_parallax.fixbtmbg {   padding: 0 !important; }
 .navhead {/*! position: fixed; */z-index: 151; width: 100%;}
+header .wrapper{max-width: 1700px;}
 header{background: var(--priColor); padding: 0 25px;color: #fff; position: relative;}
 	.header_con{min-height: 142px; padding: 0;align-content: center;display: flex;justify-content: space-between;align-items: center;}
 	.main_logo{max-width: 200px;display: none;}
 	.main_logo_scroll h2 { font-size: 37px; font-weight: 600; margin-left: 23px; position: relative;filter: drop-shadow(0 0 1px var(--priColor));} 
-	.main_logo_scroll { position: relative;  filter: drop-shadow\(0 0 2px var(--priColor); } 
+	.main_logo_scroll { position: relative;  filter: drop-shadow(0 0 2px var(--priColor)); } 
 	.main_logo_scroll .box_design { width: 71px; border: 2px solid white; aspect-ratio: 1/1; position: absolute; transform: rotate(47deg); top: -20px; left: 16px; -webkit-animation: spin 2s linear infinite;animation: spin 5s linear infinite;}
 	.box_design.design1 { left: 40px; top: -21px; -webkit-animation: spin 2s linear infinite;animation: spin 5s linear infinite;}	
 	.box_design.design2 {   left: 68px;   width: 60px;   top: -13px;   border: 1px solid var(--headingColor); }
@@ -166,6 +167,7 @@ header{background: var(--priColor); padding: 0 25px;color: #fff; position: relat
 
 
 /*nav*/
+#nav_area .wrapper{max-width: 1700px;}
 #nav_area{position: relative;}
 .page_nav {background: var(--priColor); height: auto; text-align: center; padding: 0 25px;}
 .page_nav ul{position: absolute;z-index: 5;right: 0;top: 165px;text-align: right;}
@@ -226,6 +228,7 @@ header{background: var(--priColor); padding: 0 25px;color: #fff; position: relat
 /*end nav*/
 
 /*banner*/
+#banner .wrapper{max-width: 1700px;}
 #banner::before {   position: absolute;   top: 0;   left: 0;   content: '';   background: #0000006b;   width: 100%;   height: 100%;   z-index: 150; display: none; }
 #banner{background: var(--priColor); padding: 0 25px;position: relative;margin-top: 0;}
 .main_design_box.brn_design {   right: unset;   left: 200px;   top: 69px; display: none;}
@@ -259,7 +262,7 @@ header{background: var(--priColor); padding: 0 25px;color: #fff; position: relat
 	.middle_con{padding: 70px 0 50px;}
 
 	.middle_boxes{display: flex; justify-content: space-between; gap: 10px;/*! margin: 30px 0; */counter-reset: section;margin-top: 50px;}
-	.middle_boxes section{width: 100%; max-width: 545px; min-height: auto; padding: 0; background: var(--terColor);position: relative;color: #fff;text-align: left;outline: 1px solid #ffffff8c;display: flex;flex-direction: column;margin: 20px auto;counter-increment: section;}
+	.middle_boxes section{width: 100%; max-width: 439px; min-height: auto; padding: 0; background: var(--terColor);position: relative;color: #fff;text-align: left;outline: 1px solid #ffffff8c;display: flex;flex-direction: column;margin: 20px auto;counter-increment: section;}
 	.mid_info_box {   padding: 20px 30px 70px;   flex: 1; text-align: center;}	
 	.middle_boxes section h2{font-size: 50px;font-weight: 600;line-height: 100%;}
 	.middle_boxes section h2 span{}
@@ -400,7 +403,7 @@ header{background: var(--priColor); padding: 0 25px;color: #fff; position: relat
 	.btm2_boxes section h2{font-size: 25px; font-weight:600; text-transform: uppercase;min-height: 84px;}
   .btm2_boxes section h2 small {   display: block;   font-size: 16px;   font-style: italic; text-transform: capitalize;font-weight: normal;}
 	.btm2_boxes section h2 span{}
-  .btm2_boxes section figure {   width: 323px;   text-align: center;   margin: 0 auto;    }
+  .btm2_boxes section figure {   width: 323px;   text-align: center;   margin: 0 auto;    max-width: 100%;}
 	.btm2_boxes section p{margin-top: 25px;line-height: 24px;}
 	.btm2_boxes section a{position: absolute; display: block; width:200px; line-height:55px; background: var(--priColor); text-align: center; color:#fff; bottom:0; transform:translateX(-50%); left:50%;}
 	.btm2_boxes section a:hover{}
