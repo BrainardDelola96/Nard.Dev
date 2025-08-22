@@ -173,6 +173,13 @@ header{background: var(--priColor); padding: 0 25px;color: #fff; position: relat
 .page_nav ul{position: absolute;z-index: 5;right: 0;top: 165px;text-align: right;}
 .page_nav ul li{display: block; vertical-align: top; position: relative;}
 .page_nav ul li a{display:block; font-size: 18px;  color: #fff;  line-height: 58px; padding: 0;}
+.page_nav ul li .nav_icon { width: 40px;   aspect-ratio: 1/1; border-radius: 100vh; opacity:30%; display:none;}
+.page_nav ul li:first-child .nav_icon {   background: url(images/icons/nav1.png) no-repeat center; background-color: white;  background-size:25px;} 
+.page_nav ul li:nth-child(2) .nav_icon {   background: url(images/icons/nav2.png) no-repeat center; background-color: white;  background-size:25px;} 
+.page_nav ul li:nth-child(3) .nav_icon {   background: url(images/icons/nav3.png) no-repeat center; background-color: white;  background-size:25px;} 
+.page_nav ul li:nth-child(4) .nav_icon {   background: url(images/icons/nav4.png) no-repeat center; background-color: white;  background-size:25px;} 
+.page_nav ul li:nth-child(5) .nav_icon {   background: url(images/icons/nav5.png) no-repeat center; background-color: white;  background-size:25px;} 
+.page_nav ul li:last-child .nav_icon {   background: url(images/icons/nav6.png) no-repeat center; background-color: white;  background-size:25px;} 
 .page_nav ul li a:hover, .page_nav ul li a:active, .page_nav ul li.current_page_item > a{text-decoration: underline;}
 .page_nav ul li:after{content: ""; width: 1px; height: 22px; background: #000; position: absolute; top: 50%; right: -4px; transform: translateY(-50%);/*! width: 5px; *//*! height: 5px; *//*! border-radius: 50%; */display: none;}
 /* .page_nav ul li a:after{content: ""; width: 1px; height: 22px; background: #000; position: absolute; top: 50%; right: -4px; transform: translateY(-50%);! width: 5px;! height: 5px;! border-radius: 50%;} */

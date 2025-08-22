@@ -385,7 +385,12 @@ body {font-size: 16px;}
   .head_info h2 { font-size: 20px; }
   .main_logo_scroll h2 { font-size: 25px; margin-left: 52px; }
   /*Nav Area*/
-
+  .page_nav ul li .nav_icon{display: block;}
+  .page_nav ul li .nav_icon:hover{opacity:100%;}
+  .page_nav ul li .nav_icon.active{opacity:100%;}
+  .page_nav ul li q{display: none;}
+  .page_nav ul li {margin-bottom: 15px;}
+  .page_nav ul { top: 117px;right: 19px;  } 
   /*Banner Area*/
   .non_ban_img{width: 190%;margin-left: -45%;}
 	.slider{display:block;width:100%;margin-left:0;position: static;transform: unset;height: unset;}
@@ -399,8 +404,8 @@ body {font-size: 16px;}
   /*Main Area*/
 
   /*Bottom Area*/
-  .btm1_boxes{/*! display: block; */}
-  .btm1_boxes section{display: block; width: 100%; margin: 0 !important;max-width: 100%;padding-left: 50px;outline: unset;}
+  .btm1_boxes{/*! display: block; */flex-direction: column;justify-content: center;align-items: center;}
+  .btm1_boxes section{display: block; width: 100%; margin: 0 !important;}
   .btm1_boxes section::after { width: 49px; height: 87px; left: 0; top: -44px; border-top: 1px solid white; }
   .btm1_boxes section { padding-left: 0; }
   .btm2_boxes section{display: block; width: 100%; margin: 15px auto;}

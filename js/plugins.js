@@ -361,6 +361,23 @@ items: 3
 }
 })
 
+function setActiveButton(className, activeClass = "active") {
+  const buttons = document.querySelectorAll(className);
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", function() {
+      // Remove active class from all buttons
+      buttons.forEach(b => b.classList.remove(activeClass));
+
+      // Add active class to the clicked button
+      this.classList.add(activeClass);
+    });
+  });
+}
+
+// Usage example:
+setActiveButton(".nav_icon", "active");
+
 
 const lenis = new Lenis()
 
