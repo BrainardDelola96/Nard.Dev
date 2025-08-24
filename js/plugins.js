@@ -237,6 +237,109 @@ $(document).ready(function(){
                 }
          }
 
+		 if (window_width > 1024) {
+const sections = [
+// selector: Specifies the CSS selector for the HTML element that will be animated.
+// startOffset: Defines the offset from the top of .btm2_boxes (or another parent container) where the animation should start. This value determines when the animation triggers based on the scroll position.
+// speed: Determines how fast the animation occurs relative to the scroll. Higher values make the animation faster.
+// transformType: Indicates the type of transformation to apply ('translate' for translation and 'scale' for scaling).
+// direction: Specifies the direction of the transformation ('X', 'Y', or 'XY' for both axes).
+// invert: Optional property used for scaling transformations (true or false). Inverts the scaling effect (1 / scaleValue).
+// opacitySpeed: Controls the speed of the opacity transition relative to the scroll. Higher values make the opacity change more slowly.
+// enableOpacity: Determines if opacity transitions should be applied (true or false).
+
+{
+selector: '.setting_design1 img',
+parent: '#bottom1',
+startOffset: 0,
+invert: true,
+speed: 0.5,
+transformType: 'rotate',
+direction: 'XY',
+opacitySpeed: 100,
+},
+{
+selector: '.setting_design2 img',
+parent: '#bottom1',
+startOffset: 0,
+invert: true,
+speed: 0.5,
+transformType: 'rotate',
+direction: 'XY',
+opacitySpeed: 100,
+},
+{
+selector: '.setting_design3 img',
+parent: '#bottom1',
+startOffset: 0,
+invert: true,
+speed: 0.5,
+transformType: 'rotate',
+direction: 'XY',
+opacitySpeed: 100,
+},
+
+];
+sections.forEach(section => {
+let parentOffsetTop = $(section.parent).offset().top;
+let start = parentOffsetTop - section.startOffset;
+let increment = windowScroll - start;
+let current = 320;
+let data = current - (increment * section.speed);
+let transformValue;
+let totalDistance = current / section.speed;
+if (section.transformType === 'translate') {
+transformValue = `${section.invert ? -data : data}px`;
+$(section.selector).css({
+'transform': section.direction === 'X' ? `translateX(${transformValue})` : `translateY(${transformValue})`
+});
+} else if (section.transformType === 'scale') {
+let scaleValue = section.invert ? 1 / (1 + (data / 1000)) : 1 + (data / 1000);
+$(section.selector).css({
+'transform': `scale(${scaleValue})`
+});
+} else if (section.transformType === 'rotate') {
+let rotateValue = section.invert ? -data : data;
+$(section.selector).css({
+'transform': `rotate(${rotateValue}deg)`
+});
+}
+// Apply transform origin if specified
+if (section.transformOrigin) {
+$(section.selector).css({
+'transform-origin': section.transformOrigin
+});
+}
+// Apply opacity if enabled
+if (section.enableOpacity) {
+let opacity = Math.min(1, Math.max(0, increment / totalDistance));
+$(section.selector).css({
+'opacity': opacity
+});
+}
+if (data <= 0) {
+let resetTransform = '';
+if (section.transformType === 'translate') {
+resetTransform = section.direction === 'X' ? 'translateX(0px)' : 'translateY(0px)';
+} else if (section.transformType === 'scale') {
+resetTransform = 'scale(1)';
+} else if (section.transformType === 'rotate') {
+resetTransform = 'rotate(0deg)';
+}
+$(section.selector).css({
+'transform': resetTransform,
+'opacity': section.enableOpacity ? 1 : ''
+});
+}
+});
+} else {
+const allSelectors = sections.map(section => section.selector).join(', ');
+$(allSelectors).css({
+'transform': 'translate(0px, 0px) scale(1) rotate(0deg)',
+'opacity': 1
+});
+}
+
 	});
 
 	// Testimonial 
