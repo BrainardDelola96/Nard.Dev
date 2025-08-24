@@ -309,15 +309,16 @@ header{background: var(--priColor); padding: 0 25px;color: #fff; position: relat
 #main_area{background: var(--terColor); padding: 0 25px; position: relative;min-height: 947px;}
 #main_area::before {   content: '';   width: 100%;   height: 100%;   position: absolute;   background: url(images/abstract.png);   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(100%) contrast(103%);   opacity: 8.9%;   left: 0; }
 	.main_con{min-height: 947px; padding: 50px 0 50px; }
-	.main_container{display: flex; justify-content: space-between; gap:10px;width: 100%;position: relative;margin: 191px auto 0;}
-		main{width: 796px; max-width: 55%; line-height: 28px; text-align: left;color: white;}
+	.main_container{display: flex; justify-content: space-between; gap:10px;width: 100%;margin: 23px auto 0;}
+		main{width: 873px; max-width: 66%; line-height: 28px; text-align: left;color: white;}
 		.main_info .h1_title{  line-height: 100%;font-size: 30px;color: var(--headingColor);/*! padding-inline: 30px; *//*! padding-block: 20px; *//*! outline: 1px solid white; */width: 100%;display: flex;justify-content: space-between;align-items: end;}
 		.main_info .h1_title span{   background: var(--headingColor);margin: 0;top: -7px;width: 150px;display: block;margin-top: 20px;}
 		main p{margin-top: 20px;}
     .main_info .h1_title cite {   text-align: right; }
 		.h1_title.heading2 small { font-size: 50px;font-weight: 500;text-transform: uppercase;color: white;}
+    .experience h2 {   text-transform: uppercase;   margin-top: 30px;   font-weight: 600; }
 
-		.main_images {   /*! width: 47%; */ position: absolute;right: 0;bottom: 0;margin-right: 71px;z-index: 1;}
+		.main_images {   width: 38%; position: absolute;right: -79px;bottom: 0;/*! margin-right: 71px; */z-index: 1;}
 		.main_images img{   /*! width: 47%; */ }
 
 		.main_box { } 
@@ -387,8 +388,8 @@ header{background: var(--priColor); padding: 0 25px;color: #fff; position: relat
 .btm1_design figure { width: 80px; padding: 15px; border: 1px solid white; border-radius: 50%; background: var(--priColor);}
 .btm1_design img {   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(100%) contrast(103%); }
 .btm1_design {   width: fit-content;   margin: 115px auto 0;   max-width: 100%; position: relative;}
-.btm1_design2 { width: 534px; min-height: 588px; background: white; clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); position: relative;max-width: 100%;margin: 0 auto;}
-.btm1_design2::after {content:''; width: 527px; min-height: 582px; background: var(--priColor); clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); display: block;position: absolute;z-index: -1;top: 3px;left: 0;right: 0;margin: 0 auto;max-width: 100%;}
+.btm1_design2 { width: 534px; aspect-ratio: 1/1; background: white; clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); position: relative;max-width: 100%;margin: 0 auto;}
+.btm1_design2::after {content:''; width: 527px; aspect-ratio: 1/1; background: var(--priColor); clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); display: block;position: absolute;z-index: -1;top: 3px;left: 0;right: 0;margin: 0 auto;max-width: 100%;}
 .btm1_icon {   position: absolute;   z-index: 2; width: fit-content;}
 
 .btm1_icon.btm1_icon1 {   top: -36px;   left: 0;   right: 0;   margin: 0 auto; }
@@ -737,10 +738,15 @@ footer{position: relative;z-index: 1;}
 
 /* Accordion */
 .accord {margin:20px auto;}
-.accord h6{padding:10px 10px 10px 50px;background:#fff;color:#000;font-weight: 500;font-size:16px;margin:0 0 5px;border:1px solid var(--priColor);cursor:pointer;position:relative;}
-.accord div{display:none;background:#FAFDFE;padding:20px 10px;margin:5px 0; font-weight: 500;border-left:2px solid var(--priColor);position:relative;}
+.accord h6{padding:10px 10px 10px 50px;background:transparent;color:white;font-weight: 500;font-size:16px;margin:0 0 5px;border:1px solid white;cursor:pointer;position:relative;}
+.accord div{display:none;background:var(--priColor);padding:20px 10px 20px 75px;margin:5px 0; font-weight: 500;border-left:2px solid #606060;position:relative;}
 .accord h6:before{content:"+";width:30px;height:30px;color:#fff;border-radius:5px;background:var(--priColor);display:inline-block;vertical-align:middle;text-align:center;line-height:30px;position:absolute;top:50%;left:10px;transform:translate(0,-50%);-webkit-transform:translate(0,-50%);-moz-transform:translate(0,-50%);}
 .accord .sign:before{content:"-"!important;line-height:25px;}
+.accord div p {   font-size: 16px;   letter-spacing: -1px;   margin: 0; }
+.accord div figure {   width: 40px;   position: absolute;   left: 21px;   top: 26px;    }
+.accord div ul li img { width: 30px; filter: brightness(0) saturate(100%) invert(30%) sepia(72%) saturate(1674%) hue-rotate(182deg) brightness(100%) contrast(101%); }
+.accord div ul { display: flex; gap: 5px; margin-top: 10px;}
+.accord div ul li:hover { filter: drop-shadow(0 0 10px white); }
 
 /* Wordpress Edit*/
 .edit-link a {width: 100%;  max-width: fit-content; padding: 10px 20px; border: 0; border-radius: 0; background: var(--secColor); color: #fff; display: block; text-align: center;  position: relative; z-index: 22; font-weight: 500;}
