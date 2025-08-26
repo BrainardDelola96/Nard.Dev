@@ -407,7 +407,7 @@ body {font-size: 16px;}
   /*Middle Area*/
   .middle_boxes{display: block;}
   .middle_boxes section{display: block;  margin: 15px auto;}
-
+  .marquee { margin-left: 0; }
   /*Main Area*/
 
   /*Bottom Area*/
