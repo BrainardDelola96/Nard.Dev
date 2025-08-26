@@ -410,7 +410,7 @@ body {font-size: 16px;}
   .marquee { margin-left: 0; }
   .marquee--inner { animation: marquee 5s linear infinite; }
   /*Main Area*/
-
+.accord { text-align: left; }
   /*Bottom Area*/
   .btm1_boxes{/*! display: block; */flex-direction: column;justify-content: center;align-items: center;}
   .btm1_boxes section{display: block; width: 100%; margin: 0 !important;}
