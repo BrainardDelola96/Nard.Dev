@@ -414,7 +414,7 @@ body {font-size: 16px;}
   .btm1_boxes{/*! display: block; */flex-direction: column;justify-content: center;align-items: center;}
   .btm1_boxes section{display: block; width: 100%; margin: 0 !important;}
   .btm1_boxes section::after { width: 49px; height: 87px; left: 0; top: -44px; border-top: 1px solid white; }
-  .btm1_boxes section { padding-left: 0; }
+  .btm1_boxes section {  }
   .btm2_boxes section{display: block; width: 100%; margin: 15px auto;}
   .btm3_boxes section{display: block; width: 100%; margin: 15px auto;}
   .btm4_boxes section{display: block; width: 100%; margin: 15px auto;}
